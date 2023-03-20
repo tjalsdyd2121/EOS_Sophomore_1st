@@ -96,15 +96,16 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen>{
                                   fontWeight: FontWeight.bold
                               ),
                             ),
-                            if(!isSignupScreen) Container( height:1.0,
-                              width:500.0,
-                              color:Colors.black,),
-                            Container(
+                            if(!isSignupScreen)
+                              Container(
                               margin: EdgeInsets.fromLTRB(0, 3, 0, 0),
                               height: 2,
                               width: 55,
                               color: Colors.green,
-                            )
+                            )/*Container( height:1.0,
+                              width:500.0,
+                              color:Colors.black,),*/
+
                           ],
                         ),
                       ),
@@ -119,15 +120,16 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen>{
                                 fontWeight: FontWeight.bold
                               ),
                             ),
-                            if(isSignupScreen) Container( height:1.0,
-                              width:55.0,
-                              color:Colors.black,),
-                            Container(
+                            if(isSignupScreen)
+                              Container(
                               margin: EdgeInsets.fromLTRB(0, 3, 0, 0),
                               height: 2,
                               width: 55,
                               color: Colors.green,
-                            )
+                            )/*Container( height:1.0,
+                              width:55.0,
+                              color:Colors.black,),*/
+
                           ],
                         ),
                       )
